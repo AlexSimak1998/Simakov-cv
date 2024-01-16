@@ -1,0 +1,26 @@
+.Edication {
+    padding-top: 40px;
+}
+
+.Edication .title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Edication li {
+    margin-bottom: 15px;
+}
+.Edication li h5{
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: rgb(168,173,173);
+}
+.Edication li h4:nth-child(2){
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.Edication li h4{
+    font-weight: 300;
+}

@@ -1,0 +1,18 @@
+.AppReact {
+    width: 100%; /* Установите ширину на 100% */
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    min-height: 100%;
+    margin: 50px auto;
+  }
+
+
+  @media (max-width: 767px) {
+    .AppReact {
+      grid-template-columns: 1fr;
+      margin: 0;
+    }
+  
+  }
